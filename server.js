@@ -32,7 +32,7 @@ app.prepare().then(() => {
   const router = new Router()
   
   // 用来给cookie加密的,可以随便写
-  server.keys = ['Jocky develop Github App']
+  server.keys = ['3zz develop Github App']
   // 设置在浏览器的key叫什么名字
   const SESSION_CONFIG = {
     key: 'jid',
